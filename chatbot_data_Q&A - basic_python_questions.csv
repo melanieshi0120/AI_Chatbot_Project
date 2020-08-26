@@ -1,0 +1,1097 @@
+question,answer
+data?,Based on the definition from google : facts and statistics collected together for reference or analysis.
+what is data science?,"Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms ... in managing a digital data collection. There is still no consensus on the definition of data science and it is considered by some to be a buzzword."
+data science,"Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms ... in managing a digital data collection. There is still no consensus on the definition of data science and it is considered by some to be a buzzword."
+what is big data?,"In the data science domain, big data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are datasets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time."
+definition of big data ,"In the data science domain, big data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are datasets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time."
+big data ,"In the data science domain, big data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are datasets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time."
+famous data scientist,"Top 3 Data Scientists Ruling the World     
+- 1.Dr. DJ Patil
+- 2.Yann Lecun
+- 3. Allen Bonde . Please visit  Manipalprolearn.com"
+what is matplotlib,"Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. From Matplotlib offical website."
+what is seaborn,Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. For more information please visti offical website.
+what is pandas,"In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license. For more information please visit the offical website."
+What is NumPy?,"NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. For more information please visit : https://numpy.org/doc/stable/user/whatisnumpy.html"
+how to set up github,"Well I cannot explained very well, but I found a tutorail for you: https://www.youtube.com/watch?v=KOyKPlByeAw"
+github definition,Hum... This is very long stroy. I am not sure If you really want to know. Here is the link of the story about GitHub :https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/
+what is github,Hum... This is very long stroy. I am not sure If you really want to know. Here is the link of the story about GitHub :https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/
+how to register create github user name ,"Steps:
+1.Click the green Create an account button. It's below the form.
+2.Complete the CAPTCHA puzzle. 
+3.Click the Choose button for your desired plan. 
+4.Click the Verify email address button in the message from GitHub. 
+5.Review your plan selection and click Continue. 
+6.Select your preferences and click Submit.
+Here is the tutorial : https://www.wikihow.com/Create-an-Account-on-GitHub
+You are welcome  (^.^)"
+how to install Anaconda?,"Installing Anaconda on Windows:  https://www.youtube.com/watch?v=T8wK5loXkXg
+Installing Anaconda on Mac: https://www.youtube.com/watch?v=B6d5LrA8bNE"
+how to download the python ,"Use the following installation steps:
+1.Download Anaconda. We recommend downloading Anaconda's latest Python 3 version (currently Python 3.5).
+2.Install the version of Anaconda which you downloaded, following the instructions on the download page.
+3. Congratulations, you have installed Jupyter Notebook. To run the notebook:"
+what is anaconda? how to install anaconda?,"Installing Anaconda on Windows:  https://www.youtube.com/watch?v=T8wK5loXkXg
+Installing Anaconda on Mac: https://www.youtube.com/watch?v=B6d5LrA8bNE"
+"Installing Python and Jupyter Notebook via Anaconda
+","Installing Anaconda on Windows:  https://www.youtube.com/watch?v=T8wK5loXkXg
+Installing Anaconda on Mac: https://www.youtube.com/watch?v=B6d5LrA8bNE"
+the types of variables in python,"Python has five standard Data Types:
+
+#Numbers
+ost of the time using the standard Python number type is fine. Python will automatically convert a number from one type to another if it needs. But, under certain circumstances that a specific number type is needed (ie. complex, hexidecimal), the format can be forced into a format by using additional syntax in the table below:
+--int                          a = 10                          Signed Integer
+--long                       a = 345L                      (L) Long integers, they can also be represented in octal and hexadecimal
+--float                       a = 45.67                     (.) Floating point real values
+--complex                 a = 3.14J                     (J) Contains integer in the range 0 to 255.
+
+#String
+Create string variables by enclosing characters in quotes. Python uses single quotes ' double quotes "" and triple quotes """""" to denote literal strings. Only the triple quoted strings """""" also will automatically continue across the end of line statement.
+>>> message = ""Good morning""
+>>>  print(type(message))  # This will return a string
+
+#List
+Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name.
+>>> A = [ ] # This is a blank list variable
+>>> B = [1, 23, 45, 67] # this list creates an initial list of 4 numbers.
+>>> C = [2, 4, 'john'] # lists can contain different variable types.
+>>> mylist = ['Rhino', 'Grasshopper', 'Flamingo', 'Bongo']
+
+#Tuple
+Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis (). 
+>>> myGroup = ('Rhino', 'Grasshopper', 'Flamingo', 'Bongo')
+
+Here are some advantages of tuples over lists:
+Elements to a tuple. Tuples have no append or extend method.
+Elements cannot be removed from a tuple.
+You can find elements in a tuple, since this doesn’t change the tuple.
+You can also use the in operator to check if an element exists in the tuple.
+Tuples are faster than lists. If you’re defining a constant set of values and all you’re ever going to do with it is iterate through it, use a tuple instead of a list.
+It makes your code safer if you “write-protect” data that does not need to be changed.
+
+#Dictionary
+Dictionaries in Python are lists of Key:Value pairs. This is a very powerful datatype to hold a lot of related information that can be associated through keys. The main operation of a dictionary is to extract a value based on the key name. Unlike lists, where index numbers are used, dictionaries allow the use of a key to access its members. Dictionaries can also be used to sort, iterate and compare data.
+
+Dictionaries are created by using braces ({}) with pairs separated by a comma (,) and the key values associated with a colon(:). In Dictionaries the Key must be unique. Here is a quick example on how dictionaries might be used:
+>>> room_num = {'john': 425, 'tom': 212}
+>>> room_num['john'] = 645  # set the value associated with the 'john' key to 645
+>>> print (room_num['tom']) # print the value of the 'tom' key.
+>>> room_num['isaac'] = 345 # Add a new key 'isaac' with the associated value
+>>> print (room_num.keys()) # print out a list of keys in the dictionary
+>>> print ('isaac' in room_num) # test to see if 'issac' is in the dictionary.  This returns true."
+what is string in python?,"#Strings are Arrays
+Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+
+#String
+Create string variables by enclosing characters in quotes. Python uses single quotes ' double quotes "" and triple quotes """""" to denote literal strings. Only the triple quoted strings """""" also will automatically continue across the end of line statement.
+>>> message = ""Good morning""
+>>>  print(type(message))  # This will return a string"
+"What are the Types of Numerical Data?
+","There are two types of numerical data, namely; discrete data-which represent countable items and continuous data-which represent data measurement. The continuous type of numerical data are further sub-divided into interval and ratio data, which is known to be used for measuring items.
+#Discrete Data
+Discrete Data is a type of numerical data which represents countable items. They take on values that can be grouped into a list, where the list may either be finite or infinite.  Whether finite or infinite, discrete data take on counting numbers like 1 to 10 or 1 to infinity, with These group of numbers being countably finite and countably infinite respectively.
+
+A more practical example of discrete data will be counting the cups of water required to empty a bucket and counting the cups of water required to empty an ocean—the former is finite countable while the latter is infinite countable. 
+
+#Continuous Data:
+This is a type of numerical data which represents measurements—their values are described as intervals on a real number line, rather than take counting numbers. For example, the Cumulative Grade Point Average (CGPA) in a 5 point grading system defines first-class students as those whose CGPA falls under 4.50 - 5.00, second class upper as 3.50 - 4.49, second class lower as 2.50 - 3.49, third class as 1.5 - 2.49, pass as 1.00 - 1.49 and fail as 0.00 - 0.99.
+## Continuous data may be subdivided into two types, namely; Interval & Ratio Data.
+
+### Interval Data
+This is a data type measured along a scale, in which each point is placed at an equal distance from one another. Interval data takes numerical values that can only take the addition and subtraction operations. 
+
+For example, the temperature of a body measured in degrees Celsius or degrees Fahrenheit is regarded as interval data. This temperature does not have a zero point. 
+
+### Ratio Data
+Ratio data is a continuous data type similar to interval data, but has a zero point. In other words, ratio data is an interval data with zero point. For ratio data, the temperature may not only be measured in degrees Celsius and degrees Fahrenheit, but also in Kelvin. The presence of zero-point accommodates the measurement of 0 Kelvin. 
+
+A student may score a point 4.495, 2.125, 3.5 or any possible number from 0 to 5. In this case, the continuous data is regarded as being uncountably finite."
+What are the Examples of Numerical Data?,"Numerical data examples which are usually expressed in numbers includes; census data, temperature, age, mark grading, annual income, time, height, IQ, CGPA etc. These numerical examples, either in countable numbers as in discrete data or measurement form like continuous data call all be labelled as an example of numerical data
+
+Census: The Federal Government periodically needs to conduct the census of a country to know the country's population and demographics of this population. A head-to-head count of the country’s resident is done using numerical data. 
+Knowing the Census of a country assists the Government in making proper economic decisions. It is an example of countably finite discrete data. 
+
+Temperature: The temperature of a given body or place is measured using numerical data. The body temperature of a body, given to be 37 degrees Celsius is an example of continuous data. 
+This data type also put into consideration the unit of measurement. Interval data, for instance, can only measure in degrees Celsius and Fahrenheit, while ratio data can also measure in Kelvin. 
+
+Age: The age of an individual is counted using numerical data. It is classified as quantitative because it can take up multiple numerical values. 
+Although numbers are infinite in the real sense, the number of years people spend in life is finite, making it a countably finite discrete data. For example, a person who is 20 years old today may finish high school at 16, 4 years ago. 
+
+Mark Grading: Numerical data is used when grading test scores. Most times, these marks are uncountably finite and fall under continuous data. 
+When applying for admission in a school, for instance, your O level results may add up to your score. Therefore, the admission board may ask you to input your grades—A is 5 points, B is 4 points, C is 3 points, D is 2 points and E is 1 point. All these points are added together to make your total admission score. 
+
+Annual income: The annual income of an individual or household is an example of numerical data, used by businesses to know the purchasing power of their customers or each household in a community. This knowledge influences the price of their products. The annual income of an individual or household is a countably finite discrete data. 
+Time: The amount of time it took a runner to run a race, for instance, is numerical data. It doesn't matter whether it is being measured in hours, seconds or minutes, it always takes a numeric value. Time is an example of continuous data. It is regarded as interval data if measured on a 12-hour clock. 
+Height: A person's height could be any value (within the range of human heights), not just certain fixed heights. This height takes a numeric value which varies in person and can increase as time goes on. 
+The height of a person, measured in centimetres, metres, inches etc. is continuous data. 
+
+IQ Test Score: Most IQ tests rate a person's IQ in terms of percentage. The percentage of IQ is derived from the participant’s score in various sub-tests. 
+This score is not only quantitative but also has quantitative properties. An IQ test score is an example of uncountably finite categorical data. 
+
+Weight: Weight is a variable element in humans. A person might weigh 50kg while another might weigh 80kg. Unlike height that may not decrease, weight may increase and decrease in a person.
+The weight of a person measured in kg is a numerical data and may be an indication of fat or slim which is a categorical variable. 
+
+CGPA: This represents a student's Grade Point Average in his/her studies over a set period e.g. one semester. The mean of the GPA is used to find the CGPA of a student over a longer period e.g. two sessions. CGPA is an example of interval data.
+The number of children: The number of children in a community, for instance, is a superset of the number of children in a home. In other words, the number of children in each home is what adds up to make the total number of children in counting. 
+This exhibits the characteristics of numerical data and is a countably finite discrete data example. 
+
+Number of students: Similarly, the number of students in a class is a superset of the number of males and females in a class. That is, the number of males and females is what adds up to make the total number of students in a class. 
+The number of students in a class is also a countably finite discrete data example.
+
+Results of rolling a dice: A die has six faces, with each face representing one of the numbers from 1 to 6. When you roll a dice, you get two numbers which may add up to one of 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12.
+Therefore, the results of rolling dice is a countably finite discrete data example.
+
+Length: Let us consider the length of a leaf for example, which is similar to the height in human beings. A leaf’s length could be any value, not just certain fixed length. 
+This height takes a numeric value which varies in plants and can increase as the plant grows. The length of a leaf measured in centimetres is continuous data."
+Inferential Statistics,"Inferential is used to make predictions or inference on a large population-based on the data collected from a sample population. Below are some of the methods used for analysing numerical data. 
+
+Trend analysis: Trend analysis is an interval data analysis technique, used to draw trends and insights by capturing survey data over a certain period. 
+SWOT analysis: SWOT is an acronym for Strengths, Weaknesses, Opportunities and Threats. Strengths and Weaknesses are for internal analysis, while Opportunities and Threats are for external analysis of an organisation. 
+Conjoint analysis: This is a market research analysis technique that investigates how people make choices. 
+TURF analysis: This is an acronym for Total Unduplicated Reach and Frequency analysis, and is used to assess the market potential for a combination of products or services. "
+what is numerical data,"Numerical data is a data type expressed in numbers, rather than natural language description. Sometimes called quantitative data,numerical data is always collected in number form. Numerical data differentiates itself with other number form data types with its ability to carry out arithmetic operations with these numbers.
+
+For example, numerical data of the number of male students and female students in a class may be taken, then added together to get the total number of students in the class. This characteristic is one of the major ways of identifying numerical data. "
+Uses of Numerical Data ,"Population Prediction
+Using Trend analysis, researchers gather the data of the birth rate in a country for a certain period and use it to predict future population. Predicting a country's population has a lot of economic importance.
+
+Marketing & Advertising
+Before engaging in any marketing or advertising campaign, companies need to first analyse some internal and external factors that may affect the campaign. In most cases, they use a SWOT analysis.
+
+Research
+Numerical data is very popular among researchers due to its compatibility with most statistical techniques. It helps ease the research process. 
+
+Product Development
+During the product development stage, product researchers use TURF analysis to investigate whether a new product or service will be well-received in the target market or not.
+
+Education
+Interval data is used in the education sector to compute the grading system. When calculating the Cumulative Grade Point Average of a student, the examiner uses an interval data of the student's scores in the various courses offered. 
+
+Medicine
+Doctors use the thermometer to measure a patient's body temperature as part of a medical check-up. In most cases, body temperature is measured in Celsius, therefore passing as interval data."
+"Disadvantages of Numerical Data 
+","# Preset answers that do not reflect how people feel about a subject. 
+# “Standard” questions from researchers may lead to structural bias. 
+# Results are limited. "
+what is categorical data in data science,"Categorical variables represent types of data which may be divided into groups. Examples of categorical variables are race, sex, age group, and educational level. While the latter two variables may also be considered in a numerical manner by using exact values for age and highest grade completed, it is often more informative to categorize such variables into a relatively small number of groups."
+what is a list in python ,"A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ]"
+"how to add up all elements into one list in python, add items to a list or combine other lists.","n Python, use list methods append() , extend() , and insert() to add items to a list or combine other lists. You can also use the + operator to combine lists, or use slices to insert itemss at specific positions.
+-----------------------------------------------------
+** Add an item to the end: append()
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l.append(100)
+print(l)
+# [0, 1, 2, 100]
+
+l.append('new')
+print(l)
+# [0, 1, 2, 100, 'new']
+
+l.append([3, 4, 5])
+print(l)
+# [0, 1, 2, 100, 'new', [3, 4, 5]]
+-----------------------------------------------------
+** Combine lists: extend()
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l.extend([100, 101, 102])
+print(l)
+# [0, 1, 2, 100, 101, 102]
+
+l.extend((-1, -2, -3))
+print(l)
+# [0, 1, 2, 100, 101, 102, -1, -2, -3]
+
+l.extend('new')
+print(l)
+# [0, 1, 2, 100, 101, 102, -1, -2, -3, 'n', 'e', 'w']
+----------------------------------------------------
+** It is also possible to combine using the + operator instead of extend().
+print(l2)
+# [0, 1, 2, 100, 101, 102, -1, -2, -3, 'n', 'e', 'w', 5, 6, 7]
+
+l += [5, 6, 7]
+print(l)
+# [0, 1, 2, 100, 101, 102, -1, -2, -3, 'n', 'e', 'w', 5, 6, 7]
+----------------------------------------------------
+** Add an item at specified index: insert()
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l.insert(0, 100)
+print(l)
+# [100, 0, 1, 2]
+
+l.insert(-1, 200)
+print(l)
+# [100, 0, 1, 200, 2]
+
+l.insert(0, [-1, -2, -3])
+print(l)
+# [[-1, -2, -3], 100, 0, 1, 200, 2]
+----------------------------------------------------
+**  Add another list or tuple at specified index: slice
+If you specify a range using slice and assign another list or tuple, all itemss will be added.
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l[1:1] = [100, 200, 300]
+print(l)
+# [0, 100, 200, 300, 1, 2]
+
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l[1:2] = [100, 200, 300]
+print(l)
+# [0, 100, 200, 300, 2]"
+dictionary in python,"In Python, a dictionary is an unordered collection of items, with each item consisting of a key: value pair (separated by a colon).
+# Create the dictionary
+planet_size = {""Earth"": 40075, ""Saturn"": 378675, ""Jupiter"": 439264}
+# Print the dictionary
+print(planet_size)
+# Print the type
+print(type(planet_size))
+#There are a few important things to remember when creating dictionaries in Python:
+
+- Dictionaries don't support duplicate keys. Each key should be unique. For example, you can't have two dictionary items with a key of ""Earth"". If you do this, Python will use the last one and ignore the first one.
+- Dictionary keys must be immutable. That is, they must be of a data type that can't be changed. So you can use strings, numbers, or even tuples as dictionary keys, but you can't use lists, or other dictionaries.
+- Dictionary values don't have the above restrictions."
+ examples of for loop in python ,"# example 1,  
+list1=[1,2,3,4,5,6,7]
+list2=[]
+for i in list1:
+     new_i=i*2
+     list2.append(new_i)
+list2
+>>> [1,4,6,8,10,12,14]
+"
+,
+how to plot bar chart/ Bar Graphs?,"Bar graphs (also called ""bar charts"") are one of the most common plot types for showing comparisons across data. Bar graphs allow comparisons across categories by presenting categorical data as rectangular bars with heights or lengths proportional to the values that they represent. One axis of the graph shows the specific categories being compared and the other axis represents a value scale. The bars can be plotted vertically or horizontally. When the bars are plotted vertically, it is usually referred to as a ""column graph.""  An example of bar graph is shown below.
+
+import matplotlib.pyplot as plt
+plt.figure(figsize=(10,6))
+x=[""cat"",""dog"",""pig"",""cattle"",""sheep""]
+y=[3,5,10,8,12]
+plt.bar(x,y,color='m')# add color ""b"" means blue,""g"" is green, 'r' is red, ""pink"",""m"" is purple.
+plt.ylabel(""Amount"") # add y label
+plt.xlabel(""Animal"")  # add xlabel
+for i in range(len(y)):  # add numbers to the top of bar 
+    plt.text(i,y[i]+0.1,""{}"".format(y[i]))"
+what is data visualization in python,"When we present data graphically, we can see the patterns and insights we’re looking for. It becomes easier to grasp difficult concepts or identify new trends we may have missed. We can use data visualizations to make an argument, or to support a hypothesis, or to explore our world in different ways.
+
+Python allows us to create visualizations easily and quickly using Matplotlib and Seaborn."
+Matplotlib: line chart ,
+Matplotlib: scatter plots,"A scatter plot is a two-dimensional data visualization that uses individual data points to represent the values obtained for two different variables - one plotted along the x-axis and the other plotted along the y-axis. 
+
+Scatter plots are used when you want to show the relationship between two variables. Scatter plots are sometimes called correlation plots because they show how two variables are correlated. 
+For example:
+# Import matplotlib
+import matplotlib.pyplot as plt
+
+# Set plot space as inline for inline plots and qt for external plots
+%matplotlib inline
+# Import numpy to generate some dummy data
+import numpy as np
+
+# Generate an array x of 30 equally spaced data points on a line space of 0 - 10.
+x = np.linspace(0, 10, 30)
+# Calcuate sin(x) and save in a new array y
+y = np.sin(x)
+# Pass in x and y values with a label 
+plt.scatter(x, y, label = ""Function: sin(x)"" )
+plt.title('Scatter Plot in Matplotlib')
+plt.legend()
+plt.show()"
+Matplotlib:histogram ,"A histogram is a plot that lets you discover the underlying frequency distribution of a data set. It allows you to visualize fundamental properties about the data like if it is skewed in any particular direction or if it has outliers.
+
+It is important to distinguish bar graphs from histograms. Bar graphs show category-specific values and consist of two variables. Histograms show counts of how frequently a given range of values occurs in a data set.
+
+The `bins` Argument
+Say you want to change the range of values that define the groups of a histogram. You can optionally pass the `bins` argument to set the number of groups. In the plot above, the data have been separated into 10 groups. 
+
+Example:
+# Set seed for reproducability
+np.random.seed(100)
+
+# Generate a data set of 200 retirement age values
+x = 5*np.random.randn(200) + 65
+
+#Plot the histogram with hist() function
+plt.hist(x, bins = 10, edgecolor='black')
+
+plt.xlabel('Retirement Age')
+plt.ylabel('Frequency of Values')
+plt.title('Histograms in Matplotlib')
+plt.show()"
+Bash and the command line,"The command line or shell is the preliminary interface where users can interact with the operating system. Before applications, windows, and graphical user interfaces, all interaction with the computer was facilitated through the command line. Of these command line shells, bash now comes preinstalled in every mac and many other unix based systems."
+Git,"Git is a version control system that is used by developers all over the world for collaboration. Git is the technology underlying the GitHub platform, a cloud service provider, of which there are many. "
+Git commands,
+determine where you are within the file structure,"pwd: Remember, pwd stands for print working directory. This is essential to determine where you are within the file structure."
+How to take me to the Documents folder in your home directory in bash shell,"Remember that cd stands for change directory. You can navigate to the home directory with cd alone, or go up one level with cd ... You can also use the ~ symbol to refer to your home directory. For example, cd ~/Documents will take you to the Documents folder in your home directory no matter where you are."
+how to print all files in the current working directory in bash shell?,"You can use the ls command, which stands for list files to print all the files in the current working directory."
+Version Control ,"Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date.
+
+There are a lot of different ways to do version control. You could save a new file every time you make a change, timestamp that file, and place all of those files into a timestamped folder. You could track all of your changes in a spreadsheet with copious notes. Or you could use dedicated version control software."
+Navigating directories,"The preliminary fundamental techniques you'll practice in this section are changing directories using the cd command, making directories with the mkdir command, and checking where you are using the print working directory, pwd command. In addition, you'll also take a look at how to create and edit files from the command line using the nano command."
+how to capitalize all letters in a string,"you can use .upper()
+>>> ""string"".upper()
+>>> STRING # it will return STRING "
+how to capitalize first letter in a string?,"you can use .capitalize()  or .title()
+>>> ""string"".capitalize() 
+>>> String # it will return String
+Now you can try .title() !"
+how to make all characters in a string ,"you can use .lower()
+>>> ""ABCD"".lower()
+>>> abcd # it will return abcd"
+how to append a new element in a list?,".append(ELEMENT) is used to add a given element to the end of a list.
+list_append = [1,2,3,4]
+list_append.append(5)
+print(list_append)"
+how to remove the last element from the list,".pop() is used to remove the last element from the list (or if an index is given, it removes the element at that index).
+
+list_pop = [4,5,6,7]
+list_pop.pop()
+print(list_pop)"
+how to choose the last element from the list?,"example:
+list1=[1,2,3,4,5,6]
+last_element=list1[-1] # -1 means the last element's position"
+how to  add all elements from a second list to the first list.,".extend([SECOND_LIST]) is used to add all elements from a second list to the first list.
+
+list_one = [1,2,3]
+list_two = [4,5,6]
+list_one.extend(list_two)
+print(list_one)"
+dictionary methods,".keys() is used to return a list-like dict_keys object with the name of each key in the dictionary
+.values() is used to return a list-like dict_values object with the values in the dictionary
+dictionary = {'name-key': 'example-dict', 'key_2': 'value_2', 'num_keys': 3}
+print(dictionary.keys())
+print(dictionary.values())
+"
+how to get maximum number from a list or an arrary,"example:
+list1=[1,2,3,4,5,6]
+max(list1)
+>>> 6 "
+how to get minimum number from a list or an arrary,"example:
+list1=[1,2,3,4,5,6]
+min(list1)
+>>> 1"
+What is a while loop and how does it work?,"A while loop is just that; a loop! Similar to a for loop, except there is no need for a collection to iterate over. Instead, a while loop uses a condition to know when to stop executing. When the condition is true, the block inside the while loop is executed. When that condition is false, we exit the while loop and move on to the next piece of our code.
+Let's look at an example:
+stop_number = 4
+while stop_number > 0:
+    print(stop_number)
+    stop_number -=1
+print(""The stop_number reached"", stop_number, ""so the while loop's condition became False and stopped execution"")
+>>>
+4
+3
+2
+1
+The stop_number reached 0 so the while loop's condition became False and stopped execution"
+When To Use While Loops,"While loops are fairly straight forward. We use them in instances where we have a condition that serves as the point at which we want a process to stop. For example, if we think about our appetite, we should eat until we aren't hungry, right? Some days that might be two slices of pizza, some days that might be 5 slices of pizza (and that is assuming all pizza slices are of equal size, which is a generous assumption). In keeping with our food theme, let's see how we can make sure we're drinking enough water during the day using a while loop:
+hydration = 0
+water = 1 # in gallons
+while hydration < 100 and water > 0:
+    print('----[sips water]-----')
+    water -= .1
+    print('ah, that was refreshing')
+    hydration += 10
+    print('hydration is now at', hydration, '%\n')
+>>>
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 10 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 20 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 30 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 40 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 50 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 60 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 70 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 80 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 90 %
+
+----[sips water]-----
+ah, that was refreshing
+hydration is now at 100 %"
+how to use  break And continue Statements with while loop ?,"In the case of break and continue statements, it is almost best to not overthink. break and continue essentially do what they sound like. They are used in tandem with conditional statements (if, elif), inside loops, and they break out of a loop if a condition is met or continue a loop if a different condition is met. Before we dive too deeply into how these statements function, let's look at an example.
+numbers = list(range(0, 30))
+new_list = []
+for num in numbers:
+    if len(new_list) > 4:
+        print(f'We have enough even numbers in new_list ({len(new_list)}). break will stop the for loop now')
+        break
+    elif num % 2 == 0:
+        new_list.append(num)
+    elif num % 2 != 0:
+        continue
+        print('i never get executed')
+    print(num, 'is even.')
+    print('this does not print for odd numbers\nbecause the continue statement skips\nthe code that follows in the for loop\nand goes straight back to the next element in the for loop')
+>>>
+0 is even.
+this does not print for odd numbers
+because the continue statement skips
+the code that follows in the for loop
+and goes straight back to the next element in the for loop
+2 is even.
+this does not print for odd numbers
+because the continue statement skips
+the code that follows in the for loop
+and goes straight back to the next element in the for loop
+4 is even.
+this does not print for odd numbers
+because the continue statement skips
+the code that follows in the for loop
+and goes straight back to the next element in the for loop
+6 is even.
+this does not print for odd numbers
+because the continue statement skips
+the code that follows in the for loop
+and goes straight back to the next element in the for loop
+8 is even.
+this does not print for odd numbers
+because the continue statement skips
+the code that follows in the for loop
+and goes straight back to the next element in the for loop
+We have enough even numbers in new_list (5). break will stop the for loop now
+    "
+Nested Loop,"Working with a nested data structure is a little confusing at first, but after doing it a few times it becomes much less intimidating. The same is true for writing nested loops. They will be somewhat commonplace in our programming future and are important to be comfortable with.
+
+Basically what happens with a nested loop is the inner loop runs in its entirety every iteration of the outer loop. Let's take a look at an example :
+
+outer = 0
+inner = 0
+while outer < 3:
+    outer += 1
+    print(""outer iteration:"", outer)
+    while inner < 3:
+        inner += 1
+        print(""    inner iteration:"", inner)
+    inner = 0
+    print(""\n"")
+>>> 
+outer iteration: 1
+    inner iteration: 1
+    inner iteration: 2
+    inner iteration: 3
+
+
+outer iteration: 2
+    inner iteration: 1
+    inner iteration: 2
+    inner iteration: 3
+
+
+outer iteration: 3
+    inner iteration: 1
+    inner iteration: 2
+    inner iteration: 3
+"
+how to create a function in python?,"There are two components to declaring a function: the function signature and the function body.
+
+Function Signature
+The function signature is the first line of the function. It follows the pattern of def, function name, parentheses, colon.
+
+def name_of_function():
+
+The def is there to tell Python that you are about to declare a function. The name of the function indicates how to reference and execute the function later. The colon is to end the function signature and indicate that the body of the function is next. The parentheses are important as well, and we'll explain their use in a later lesson.
+
+Function Body
+The body of the function is what the function does. This is the code that runs each time we execute the function. We indicate that we are writing the function body by going to the next line and indenting after the colon. To complete the function body we stop indenting.
+
+#example using loop:
+
+new_employees = ['jim', 'tracy', 'lisa']
+
+welcome_messages = []
+for new_employee in new_employees:
+    welcome_messages.append(""Hi "" + new_employee.title() + "", I'm so glad to be working with you!"" )
+
+welcome_messages
+>>>
+ [""Hi Jim, I'm so glad to be working with you!"",
+ ""Hi Tracy, I'm so glad to be working with you!"",
+ ""Hi Lisa, I'm so glad to be working with you!""]
+
+# example using function:
+
+new_employees = ['steven', 'jan', 'meryl']
+
+def greet_employees():
+    welcome_messages = []
+    for new_employee in new_employees:
+        welcome_messages.append(""Hi "" + new_employee.title() + "", I'm so glad to be working with you!"" )
+
+    return welcome_messages
+greet_employees()
+>>>
+[""Hi Steven, I'm so glad to be working with you!"",
+ ""Hi Jan, I'm so glad to be working with you!"",
+ ""Hi Meryl, I'm so glad to be working with you!""]"
+what is mean? how to calculate mean?,"The Mean or Arithmetic Average is the value obtained by dividing the sum of all the data by the total number of data points.
+
+"
+what is Median,"The median is another measure of central tendency. It refers to the data situated at exactly the middle location of the distribution.
+
+In a set with an odd number of data points, the median is the middle value. So the median of 2, 4, 12 is 4. In our retirement data above, as we have 11 values, we can pick the 6th value (57) to be our median.
+
+If the number of data points is even then the median is the average (mean) of the two middle items. Let's look at this dataset for the average weight of 10 individuals:
+
+55, 56, 56, 58, 60, 61, 63, 64, 70, 78
+So here, for the even number of observations (i.e. 10), the median would be calculated as:
+
+Median = (60 + 61)/2 = 60.5"
+what is mode,"The Mode refers to the data value that occurs most frequently in a given dataset. Hence, it uses the frequency (repetition) of a certain value to be a representative of the central tendency of data.
+
+For our retirement data above, we can see that the value 54 appears most frequently (i.e. 3 times). So the mode value for retirement age, based on our data, would be 54 years. Similarly, for the weight data, the value 56 appears more frequently than the rest and hence would be considered a mode for this data.
+
+If two (or more) values occur with the same frequency in a dataset, both (or all) of the items are considered the mode of the data and the data set is multimodal. (Multimodality and its impact on data analysis will be discussed later in the course.)
+
+The mode is particularly useful for categorical data (data grouped into categories) and is often used for filling in missing data in a messy data set. However, it's important to look at a plot of the distribution of data before using the mode to represent centrality as sometimes the most popular category will not be centrally positioned."
+how to use data visualizsation to find Central Tendency?,"Histograms can also be used as an additional aid to help decide between different measures of central tendency.
+
+A histogram is a type of graph in which the x-axis lists categories or values for a dataset, and the y-axis shows a count of the number of cases falling into each category.
+
+For the sample data above, let's draw a histogram for retirement ages.
+
+import matplotlib.pyplot as plt
+x = [54, 54, 54, 55, 56, 57, 57, 58, 58, 60, 60]
+plt.hist(x, bins=5)
+plt.title(""Retirement Ages"")
+plt.show()
+"
+Measures of Dispersion,"To truly understand your data, you also need Measures of Dispersion, namely: absolute deviation, standard deviation, and variance. These measures tell you how tightly (or loosely) your data is clustered around its center. Generally, measures of dispersion report on how ""noisy"" your dataset is."
+Absolute Deviation,"Absolute Deviation is the simplest way of calculating the dispersion of a data set. It is calculated by taking a value from the dataset and subtracting the mean of the dataset. This helps to identify the ""distance"" between a given value and the mean. In other words, how much a value deviates from the mean.
+
+Average Absolute Deviation is calculated by taking the mean of all individual absolute deviations in a data set :
+
+The advantage here is that the average absolute deviation yields one number to describe dispersion. To illustrate this, consider this example: In a group of four people, two people earn 50K USD a year and two earn 60K USD a year. The mean of the data set is 55K USD. The absolute deviations are:
+
+|50−55|=5 
+|50−55|=5 
+|60−55|=5 
+|60−55|=5 
+
+The average absolute deviation is:
+
+(5+5+5+5)/4=5
+"
+what is Standard Deviation?,"The Standard Deviation is another measure of the spread of values within a dataset. It is simply the square root of the variance. In the above formula,  𝜎^2  is the variance so  𝜎  is the standard deviation."
+what is Variance?,"A more complex measure of dispersion is Variance. Remember, measures of dispersion emphasize the magnitude of differences from the mean, not their sign. Unlike the absolute deviation, which uses the absolute value of the deviation to take care of negative values, the variance achieves positive values by squaring each of the deviations. Similar to what you saw with the average absolute deviation, the next step in calculating variance is to add up the squared deviations (the sum of squares), then divide by the total number of values in your dataset.
+Recall the distinction between the sample mean ( 𝑥¯ ) and the population mean ( 𝜇 ) - namely, that a sample mean is calculated using a subset of the population whereas the population mean is calculated using the entire population. You'll see here that the population mean is used. This is because unlike the mean, the variance formula changes slightly depending on whether you are working with data from a sample or data from the entire population. Don't worry if this is a little confusing now, the details will be discussed later.
+
+Say you want to calculate the variance of our salary data above. The first step is to calculate all of the differences from the mean:
+
+50−55=−5 
+50−55=−5 
+60−55=5 
+60−55=5 
+
+Note: no absolute values, the signs are kept
+
+Next, square the differences:
+
+(−5)^2=25 
+(−5)^2=25 
+5^2=25 
+5^2=25 
+Finally, add them up and divide by the total number of data points:
+
+(25+25+25+25)/4=25"
+"Quantiles, Percentiles, and Quartiles","# List of numbers
+x = [3, 5, 8, 12, 15, 18, 20, 22, 25, 30, 50, 80, 687]
+# Sort in ascending order
+x = sorted(x)
+# Distance between last and first element
+distance = len(x) - 1
+# Index of 25th percentile
+index_p25 = 0.25*distance
+index_p25
+>>> 3.0
+# Index of 75th percentile
+index_p75 = 0.75*distance
+index_p75
+>>> 9.0
+ 25th Percentile
+p25 = x[int(index_p25)]
+p25
+>>> 12
+# 75th Percentile
+p75 = x[int(index_p75)]
+p75
+>>> 30"
+when should i use box plot and how to use bpx plot ?,"Box and whisker plots are ideal for comparing distributions because the centre, spread and overall range are immediately apparent. A box and whisker plot is a way of summarizing a set of data measured on an interval scale. It is often used in explanatory data analysis
+example:
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+plt.style.use('ggplot') # for viewing a grid on plot
+x = [54, 54, 54, 55, 56, 57, 57, 58, 58, 60, 81]
+plt.boxplot(x)
+plt.title (""Retirement Age Box Plot"")
+plt.show()
+
+If you run this code you can see that in this box plot, you can see that it is very easy to visualize the central tendency of the data. The median is drawn as a blue line at 57. The IQR identifies the middle 50% of the data which is shown as the box. The whiskers (two horizontal lines) show the minimum (54) and maximum (60) values in our dataset that fall within  𝑄1−1.5∗𝐼𝑄𝑅  and  𝑄3+1.5∗𝐼𝑄𝑅 , respectively. The point at 81 falls outside the range of the whiskers so it is shown as a data point and is considered an outlier."
+How many common python libraries ? ,"Numpy, SciPy, Pandas, matplotlib, seaborn,PIL, Keras / TensorFlow, Scikit-Learn, statsmodels etc"
+numpy array?,"import numpy as np
+numpy_arr = np.array([1, 2, 3, 4])
+print('Here is a NumPy array:', numpy_arr)
+print('You know it is a NumPy array because its type is:', type(numpy_arr))
+>>> 
+Here is a NumPy array: [1 2 3 4]
+You know it is a NumPy array because its type is: <class 'numpy.ndarray'>
+"
+how to load the data using pandas in python?,"it really depends on what kind of data you want to load:
+CSV file-
+import pandas as pd
+df=pd.read_csv(""your_data_name.csv"")
+E"
+what is pandas and how to use pandas?,"Pandas is the most popular data manipulation package in Python, and DataFrames are the Pandas data type for storing tabular 2D data.
+The basic process of loading data from a CSV file into a Pandas DataFrame (with all going well) is achieved using the “read_csv” function in Pandas:
+
+# Load the Pandas libraries with alias 'pd' 
+import pandas as pd 
+# Read data from file 'filename.csv' 
+# (in the same directory that your python process is based)
+# Control delimiters, rows, column names with read_csv (see later) 
+data = pd.read_csv(""filename.csv"") 
+# Preview the first 5 lines of the loaded data 
+data.head()
+
+#There are some methods and attributes associated with Pandas objects (both DataFrames and series!) which make retrieving information from the data particularly easy. Some commonly used methods:
+
+.head()
+.tail()
+#And attributes:
+.index
+.columns
+.dtypes
+.shape"
+how to select a column from a dataframe?,"# if you want to select a specific column you can use this code:
+df[""column_name""] "
+how to select first five (5) rows from a dataframe? pandas? ,"if you want to select frist five (5 ) row from a datafram you can use:
+df.head() # frist 5 row
+df.tail()# last 5 row
+By using .head() and .tail(), you can select the first  𝑛  rows from your dataframe. The default  𝑛  is 5, but you can change this value inside the parentheses. "
+how to reset index for a dataframe?,"# if you want to reset index for a dataframe:
+new_df=df.reset_index()
+
+Using .index, you can access the index or row labels of the DataFrame:
+df.index"
+how to reset or rename the column's names?,"df.columns
+>>>Index(['alcohol', 'malic_acid'], dtype='object')
+
+# you can use this to change the columns' names 
+df.columns=['col1', 'col2']
+df.columns
+>>> Index(['col1', 'col2']], dtype='object') 
+# make sure length of the list for new columns' names is same as the length of df.columns
+"
+what does .dtypes do ?,"Using .dtypes returns the data types of all columns in the DataFrame 
+
+df.dtypes
+>>> 
+alcohol                         float64
+malic_acid                      float64
+ash                             float64
+alcalinity_of_ash               float64
+magnesium                       float64
+total_phenols                   float64
+flavanoids                      float64
+nonflavanoid_phenols            float64
+proanthocyanins                 float64
+color_intensity                 float64
+hue                             float64
+od280/od315_of_diluted_wines    float64
+proline                         float64
+dtype: object"
+how to select a specific row from a dataframe?,".iloc, which is a Pandas DataFrame indexer used for integer-location based indexing / selection by position
+
+df.iloc[3] # select 4th row
+>>>
+alcohol                           14.37
+malic_acid                         1.95
+ash                                2.50
+alcalinity_of_ash                 16.80
+magnesium                        113.00
+total_phenols                      3.85
+flavanoids                         3.49
+nonflavanoid_phenols               0.24
+proanthocyanins                    2.18
+color_intensity                    7.80
+hue                                0.86
+od280/od315_of_diluted_wines       3.45
+proline                         1480.00
+Name: 3, dtype: float64
+# You can use a colon to select several rows. Note that you'll use a structure .iloc[a:b] where the row with index a will be included in the selection and the row with index b is excluded.
+df.iloc[5:8]"
+how to select from a column to b column,"an use df.iloc[:, a:b] to perform column selections based on their index. "
+how to select columns based on their (row index and) column name?,"You can .loc to select columns based on their (row index and) column name. Examples:
+
+df.loc[:, 'magnesium'] 
+# An alternative method here is simply calling df['magnesium']"
+how to select certain rows in your dataset based on the value for a certain variable. ,"Sometimes you'd like to select certain rows in your dataset based on the value for a certain variable. Imagine you'd like to create a new DataFrame that only contains the wines with an alcohol percentage below 12. This can be done as follows:
+df.loc[df['alcohol'] < 12]
+# or you can also choose all the data  with an alcohol percentage below 12
+df[df['alcohol'] < 12]"
+how to create a new dataframe?,"simply use :
+import pandas as pd
+df=pd.DataFrame()
+df[""col1]=[1,2,3,4,5]
+df[""col2]=[2,4,6,8,10]"
+how to import data using pandas ,"# Loading Pandas
+## When importing Pandas, it is standard to import it under the alias pd
+There are a few main functions for importing data into a Pandas DataFrame including:
+
+import pandas as pd
+
+pd.read_csv()
+pd.read_excel()
+pd.read_json()
+pd.DataFrame.from_dict()
+
+Most of these functions are fairly straightforward; you use read_csv() for csv files, read_excel() for excel files (both new and old .xlx and .xlsx formats), and read_json() for json files. That said, there are a few nuances you should know about. The first is that the read_csv() format can be used for any plain-text delimited file. This may include (but is not limited to) pipe (|) delimited files (.psv) and tab separated files (.tsv).
+
+# Import 'bp.txt' file
+df = pd.read_csv('Data/bp.txt', delimiter='\t')
+
+# Import the first 100 rows of 'ACS_16_5YR_B24011_with_ann.csv' file while skipping the first row
+df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', skiprows=1, nrows=100)
+
+# Delete the first row
+df = df.drop(0)
+
+# Import the 'ACS_16_5YR_B24011_with_ann.csv' file using a proper encoding
+df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', header=1, encoding='latin-1')
+
+# Import the file with specific columns
+df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', 
+                 usecols=[0, 1, 2, 5, 6], encoding='latin-1')
+
+# Import the file with specific columns
+df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', usecols=['GEO.id', 'GEO.id2'], encoding='latin-1')
+
+# Import an Excel file
+df1 = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', header=2)
+
+# Import a specific sheet of an Excel file
+df2 = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheet_name=2, header=2)
+
+# Import a specific sheet of an Excel file
+df = pd.read_excel('Data/Yelp_Selected_Businesses.xlsx', sheet_name='Biz_id_RESDU', header=2)
+
+# Import the names of Excel sheets in a workbook
+workbook = pd.ExcelFile('Data/Yelp_Selected_Businesses.xlsx')
+workbook.sheet_names
+
+# Import a specific sheet
+df = workbook.parse(sheet_name=1, header=2)
+
+ #Write data to a CSV file 
+# Notice how we have to pass index=False if we do not want it included in our output
+df.to_csv('NewSavedView.csv', index=False) 
+
+# Write data to an Excel file 
+df.to_excel('NewSavedView.xlsx')"
+utf-8' codec can't decode byte 0xf1 in position 2: invalid continuation byte,"Encoding errors like the one above are always frustrating. This has to do with how the strings within the file itself are formatted. The most common encoding other than utf-8 that you are likely to come across is latin-1.
+# Import the 'ACS_16_5YR_B24011_with_ann.csv' file using a proper encoding
+df = pd.read_csv('Data/ACS_16_5YR_B24011_with_ann.csv', header=1, encoding='latin-1')
+df.head()"
+how to Use the .map() and .apply() methods to apply a function to a pandas Series or DataFrame?,
+how to converting dates?,"A slightly more complicated data type transformation is creating date or datetime objects. These are built-in datatypes that have useful information such as being able to quickly calculate the time between two days, or extracting the day of the week from a given date. However, if we look at our current date column, we will notice it is simply a non-null object (probably simply text).
+
+pd.to_datetime(df['DATE']).head() 
+>>>
+0   2018-08-25
+1   2018-08-25
+2   2018-08-25
+3   2018-08-25
+4   2018-08-25
+
+# Another method for slicing series/dataframes
+df['DATE'].iloc[0] 
+>>> '08/25/2018'
+
+# Notice we include delimiters (in this case /) between the codes 
+pd.to_datetime(df['DATE'], format='%m/%d/%Y').head()
+0   2018-08-25
+1   2018-08-25
+2   2018-08-25
+3   2018-08-25
+4   2018-08-25
+Name: DATE, dtype: datetime64[ns]
+
+# dt stores all the built in datetime methods (only works for datetime columns)
+df['DATE'].dt.day_name().head()
+0    Saturday
+1    Saturday
+2    Saturday
+3    Saturday
+4    Saturday
+Name: DATE, dtype: object
+"
+how to set a new index for a dataframe?,"df = df.set_index('date')
+"
+how to using pandas to plot a bar chart?,"# if there is a catogorical variable and you want to know their distribution :
+df['col'].value_counts().plot(kind='bar',color='r')
+# or you also can do 
+df['col'].value_counts().plot(kind='hist',color='r')"
+what is EDA or Exploratory Data Analysis?,"Exploratory Data Analysis (EDA) is an approach for data analysis that employs a variety of techniques (mostly graphical) to
+-maximize insight into a data set;
+-uncover underlying structure;
+-extract important variables;
+-detect outliers and anomalies;
+-test underlying assumptions;
+-develop parsimonious models; and
+-determine optimal factor settings."
+common python libraries,"Common python libraries are Numpy,  Scipy, Statesmodels, Pandas, Matplotlib, Seaborn, Sklearn and TensorFlow/ Keras"
+what is seaborn? what is the difference between seaborn and matplotlib?,"Matplotlib: Matplotlib is mainly deployed for basic plotting. Visualization using Matplotlib generally consists of bars, pies, lines, scatter plots and so on. Seaborn: Seaborn, on the other hand, provides a variety of visualization patterns. It uses fewer syntax and has easily interesting default themes."
+how to plot seaborn scatter plot,"# import libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from scipy import stats
+sns.set(color_codes=True)
+#Plotting univariate distributions
+#The most convenient way to take a quick look at a univariate distribution in seaborn is the distplot() function. By default, this will draw a histogram and fit a kernel density estimate (KDE).
+
+x = np.random.normal(size=100)
+sns.distplot(x);
+"
+how to plot seaborn barchart,"Example
+
+Draw a set of vertical bar plots grouped by a categorical variable:
+
+import seaborn as sns
+sns.set(style=""whitegrid"")
+tips = sns.load_dataset(""tips"")
+ax = sns.barplot(x=""day"", y=""total_bill"", data=tips)"
+how to plot seaborn distribution plot,You can use following code to plot distribution:
+how to plot line chart using seaborn in python,"Example
+
+Draw a single line plot with error bands showing a confidence interval:
+
+import seaborn as sns; sns.set()
+import matplotlib.pyplot as plt
+fmri = sns.load_dataset(""fmri"")
+ax = sns.lineplot(x=""timepoint"", y=""signal"", data=fmri)
+
+link: https://seaborn.pydata.org/generated/seaborn.lineplot.html"
+how to plot/ create/ make seaborn pie chart,
+definition of linear regression,"In statistics, linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression. ... Linear regression has many practical uses."
+assumptions of linear regression,"There are four assumptions associated with a linear regression model:
+
+Linearity: The relationship between X and the mean of Y is linear.
+Homoscedasticity: The variance of residual is the same for any value of X.
+Independence: Observations are independent of each other.
+Normality: For any fixed value of X, Y is normally distributed.
+link: https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/R/R5_Correlation-Regression/R5_Correlation-Regression4.html"
+why those assumptions pf linear regression are important,"Linear regression is an analysis that assesses whether one or more predictor variables explain the dependent (criterion) variable. The regression has five key assumptions:
+Linear relationship
+Multivariate normality
+No or little multicollinearity
+No auto-correlation
+Homoscedasticity
+A note about sample size. In Linear regression the sample size rule of thumb is that the regression analysis requires at least 20 cases per independent variable in the analysis.
+In the free software below, its really easy to conduct a regression and most of the assumptions are preloaded and interpreted for you.
+First, linear regression needs the relationship between the independent and dependent variables to be linear. It is also important to check for outliers since linear regression is sensitive to outlier effects. The linearity assumption can best be tested with scatter plots, the following two examples depict two cases, where no and little linearity is present.
+Secondly, the linear regression analysis requires all variables to be multivariate normal. This assumption can best be checked with a histogram or a Q-Q-Plot. Normality can be checked with a goodness of fit test, e.g., the Kolmogorov-Smirnov test. When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
+Thirdly, linear regression assumes that there is little or no multicollinearity in the data. Multicollinearity occurs when the independent variables are too highly correlated with each other.
+Multicollinearity may be tested with three central criteria:
+1) Correlation matrix – when computing the matrix of Pearson’s Bivariate Correlation among all independent variables the correlation coefficients need to be smaller than 1.
+2) Tolerance – the tolerance measures the influence of one independent variable on all other independent variables; the tolerance is calculated with an initial linear regression analysis. Tolerance is defined as T = 1 – R² for these first step regression analysis. With T < 0.1 there might be multicollinearity in the data and with T < 0.01 there certainly is.
+3) Variance Inflation Factor (VIF) – the variance inflation factor of the linear regression is defined as VIF = 1/T. With VIF > 10 there is an indication that multicollinearity may be present; with VIF > 100 there is certainly multicollinearity among the variables.
+If multicollinearity is found in the data, centering the data (that is deducting the mean of the variable from each score) might help to solve the problem. However, the simplest way to address the problem is to remove independent variables with high VIF values.
+Fourth, linear regression analysis requires that there is little or no autocorrelation in the data. Autocorrelation occurs when the residuals are not independent from each other. For instance, this typically occurs in stock prices, where the price is not independent from the previous price.
+4) Condition Index – the condition index is calculated using a factor analysis on the independent variables. Values of 10-30 indicate a mediocre multicollinearity in the linear regression variables, values > 30 indicate strong multicollinearity.
+If multicollinearity is found in the data centering the data, that is deducting the mean score might help to solve the problem. Other alternatives to tackle the problems is conducting a factor analysis and rotating the factors to insure independence of the factors in the linear regression analysis.
+Fourthly, linear regression analysis requires that there is little or no autocorrelation in the data. Autocorrelation occurs when the residuals are not independent from each other. In other words when the value of y(x+1) is not independent from the value of y(x).
+While a scatterplot allows you to check for autocorrelations, you can test the linear regression model for autocorrelation with the Durbin-Watson test. Durbin-Watson’s d tests the null hypothesis that the residuals are not linearly auto-correlated. While d can assume values between 0 and 4, values around 2 indicate no autocorrelation. As a rule of thumb values of 1.5 < d < 2.5 show that there is no auto-correlation in the data. However, the Durbin-Watson test only analyses linear autocorrelation and only between direct neighbors, which are first order effects.
+The last assumption of the linear regression analysis is homoscedasticity. The scatter plot is good way to check whether the data are homoscedastic (meaning the residuals are equal across the regression line). The following scatter plots show examples of data that are not homoscedastic (i.e., heteroscedastic):
+The Goldfeld-Quandt Test can also be used to test for heteroscedasticity. The test splits the data into two groups and tests to see if the variances of the residuals are similar across the groups. If homoscedasticity is present, a non-linear correction might fix the problem."
+how to get pivot tables with pandas ,"# code and parameter
+pandas.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All', observed=False)
+
+# Examples
+import pandas as pd
+df = pd.DataFrame({""A"": [""foo"", ""foo"", ""foo"", ""foo"", ""foo"",
+                         ""bar"", ""bar"", ""bar"", ""bar""],
+                   ""B"": [""one"", ""one"", ""one"", ""two"", ""two"",
+                         ""one"", ""one"", ""two"", ""two""],
+                   ""C"": [""small"", ""large"", ""large"", ""small"",
+                         ""small"", ""large"", ""small"", ""small"",
+                         ""large""],
+                   ""D"": [1, 2, 2, 3, 3, 4, 5, 6, 7],
+                   ""E"": [2, 4, 5, 5, 6, 6, 8, 9, 9]})
+df
+>>>
+     A    B      C  D  E
+0  foo  one  small  1  2
+1  foo  one  large  2  4
+2  foo  one  large  2  5
+3  foo  two  small  3  5
+4  foo  two  small  3  6
+5  bar  one  large  4  6
+6  bar  one  small  5  8
+7  bar  two  small  6  9
+8  bar  two  large  7  9
+
+#This first example aggregates values by taking the sum.
+
+table = pd.pivot_table(df, values='D', index=['A', 'B'],
+                    columns=['C'], aggfunc=np.sum)
+table
+>>>
+C        large  small
+A   B
+bar one    4.0    5.0
+      two    7.0    6.0
+foo one    4.0    1.0
+      two    NaN    6.0
+"
+how to deal with missing values,"Handling Missing Values
+
+The researcher may leave the data or do data imputation to replace the them.  Suppose the number of cases of missing values is extremely small; then, an expert researcher may drop or omit those values from the analysis.  In statistical language, if the number of the cases is less than 5% of the sample, then the researcher can drop them.
+
+In the case of multivariate analysis, if there is a larger number of missing values, then it can be better to drop those cases (rather than do imputation) and replace them.  On the other hand, in univariate analysis, imputation can decrease the amount of bias in the data, if the values are missing at random. For more inormation please visti : https://www.statisticssolutions.com/missing-values-in-data/#:~:text=Handling%20Missing%20Values,those%20values%20from%20the%20analysis."
+correlation definition and formula,"A correlation is a statistical measure of the relationship between two variables. ... The correlation coefficient is a value that indicates the strength of the relationship between variables. The coefficient can take any values from -1 to 1. The interpretations of the values are: -1: Perfect negative correlation.  
+  "
+,
+relationship between correlation and covariance,"In simple words, both the terms measure the relationship and the dependency between two variables. “Covariance” indicates the direction of the linear relationship between variables. “Correlation” on the other hand measures both the strength and direction of the linear relationship between two variables."
+How to interpreting the results of linear regression,
+distributions definition in statistics,"The distribution of a statistical data set (or a population) is a listing or function showing all the possible values (or intervals) of the data and how often they occur. 
+- Discrete Distributions 
+The Bernoulli Distribution
+The Bernoulli distribution represents the probability of success for a certain experiment (the outcome being ""success or not"", so there are two possible outcomes). A coin toss is a classic example of a Bernoulli experiment with a probability of success 0.5 or 50%, but a Bernoulli experiment can have any probability of success between 0 and 1.
+
+The Poisson Distribution
+The Poisson distribution represents the probability of  𝑛  events in a given time period when the overall rate of occurrence is constant. A typical example is pieces of mail. If your overall mail received is constant, the number of items received on a single day (or month) follows a Poisson distribution. Other examples might include visitors to a website, or customers arriving at a store, or clients waiting to be served in a queue.
+
+The Uniform Distribution
+The uniform distribution occurs when all possible outcomes are equally likely. The dice example shown before follows a uniform distribution with equal probabilities for throwing values from 1 to 6. 
+- Continuous Distributions
+A normal distribution is the single most important distribution, you'll basically come across it very often. The normal distribution follows a bell shape and is a foundational distribution for many models and theories in statistics and data science. A normal distribution turns up very often when dealing with real-world data including heights, weights of different people, errors in some measurement or grades on a test
+"
+normal distribution,"The normal distribution is the most important probability distribution in statistics because it fits many natural phenomena. For example, heights, blood pressure, measurement error, and IQ scores follow the normal distribution. It is also known as the Gaussian distribution and the bell curve."
+,
+Do you know Hua Shi ?,who the hell is she?
+categorical data,"Categorical variables represent types of data which may be divided into groups. Examples of categorical variables are race, sex, age group, and educational level. While the latter two variables may also be considered in a numerical manner by using exact values for age and highest grade completed, it is often more informative to categorize such variables into a relatively small number of groups."
+log transformation ,"A regression model will have unit changes between the x and y variables, where a single unit change in x will coincide with a constant change in y. Taking the log of one or both variables will effectively change the case from a unit change to a percent change. This is especially important when using medium to large datasets. Another way to think about it is when taking a log of a dataset is transforming your model(s) to take advantage of statistical tools such as linear regression that improve on features that are normally distributed.
+
+The Why:
+Logarithmic transformation is a convenient means of transforming a highly skewed variable into a more normalized dataset. When modeling variables with non-linear relationships, the chances of producing errors may also be skewed negatively. In theory, we want to produce the smallest error possible when making a prediction, while also taking into account that we should not be overfitting the model. Overfitting occurs when there are too many dependent variables in play that it does not have enough generalization of the dataset to make a valid prediction. Using the logarithm of one or more variables improves the fit of the model by transforming the distribution of the features to a more normally-shaped bell curve.
+
+The When:
+In python, let’s first import the necessary libraries that will be used to show how this all works. I have also imported a dataframe using King County’s housing data in Washington state. In the following 2 histograms, you can see the difference between the actual price of houses vs. the log price of houses using numpy."
+why do we need to transform the variables for linear regression,
+"What Problems Can Data Science Solve?
+Examples of Data Science 
+","1. Regression: How much or how many?
+Regression analysis is used to predict a continuous value - such as the number of staff you'll need for a busy shift or the likely sale price of a house. Example:  Sales or Market Forecasts
+
+2. Classification: Which category?
+Classification is used to predict which category something will fall into. If you're trying to figure out whether a client is likely to default on a loan (i.e., default or no default) or which of your products a customer is likely to prefer, you're dealing with a classification problem.  Example: Credit Rating
+
+3. Anomaly detection: Is this weird?
+Anomaly detection is a common data science technique used to find unusual patterns that do not conform to expected behavior. It has applications across various industries from intrusion detection (identifying strange patterns in network traffic that could signal a hack) to fraud detection in credit card transactions to fault detection in operating environments.
+Example: Identifying Fraud
+
+4. Recommender systems: Which item would a user prefer?
+Recommender systems are one of the most popular applications of data science today. They are used to predict user preferences towards a product/service. Almost every major tech company (Amazon, Netflix, Google, Facebook) has applied them in some form or the other. "
+The Data Science Process or Data Science Life Cycle,
+Business Understanding / Domain Knowledge,"Before trying to solve a data related problem, it is important that a Data Scientist/Analyst has a clear understanding of the problem domain and the kinds of question(s) that need to be answered by their analysis. Some of the questions that the Data Scientist might be asked include:
+
+* How much or how many? E.g. Identifying the number of new customers likely to join your company in the next quarter. (Regression analysis)
+
+* Which category? E.g. Assigning a document to a given category for a document management system. (Classification analysis)
+
+* Which group? E.g. Creating a number of groups (segments) of your customers based on their monetary value. (Clustering)
+
+* Is this weird? E.g. Detecting suspicious activities of customers by a credit card company to identify potential fraud. (Anomaly detection)
+
+* Which items would a user prefer? E.g. Recommending new products (such as movies, books or music) to existing customers (Recommendation systems)"
+what is Data Mining,"After identifying the objective for your analysis and agreeing on analytical question(s) that need to be answered, the next step is to identify and gather the required data.
+
+Data mining is a process of identifying and collecting data of interest from different sources - databases, text files, APIs, the Internet, and even printed documents. Some of the questions that you may ask yourself at this stage are:
+
+
+* What data do I need in order to answer my analytical question?
+* Where can I find this data?
+* How can I obtain the data from the data source?
+* How do I sample from this data?
+* Are there any privacy/legal issues that I must consider prior to using this data?
+"
+definition of Data Cleaning,"Data Cleaning
+
+Data cleaning is usually the most time-consuming stage of the Data Science process. This stage may take up to 50-80% of a Data Scientist's time as there are a vast number of possible problems that make the data ""dirty"" and unsuitable for analysis. Some of the problems you may see in data are:
+
+* Inconsistencies in data
+* Misspelled text data
+* Outliers
+* Imbalanced data
+* Invalid/outdated data
+* Missing data
+
+This stage requires the development of a careful strategy on how to deal with these issues. Such a strategy may vary substantially between different analyses depending on the nature of problems being solved. "
+definition of Data Cleaning,
+what is Data Exploration,"Data exploration or Exploratory Data Analysis (EDA) helps highlight the patterns and relations in data. Exploratory analysis may involve the following activities:
+
+Calculating basic descriptive statistics such as the mean, the median, and the mode
+Creating a range of plots including histograms, scatter plots, and distribution curves to identify trends in the data
+Other interactive visualizations to focus on a specific segments of data"
+Feature Engineering,"A ""Feature"" is a measurable attribute of the phenomenon being observed - the number of bedrooms in a house or the weight of a vehicle. Based on the nature of the analytical question asked in the first step, a Data Scientist may have to engineer additional features not found in the original dataset. Feature engineering is the process of using expert knowledge to transform raw data into meaningful features that directly address the problem you are trying to solve. For example, taking weight and height to calculate Body Mass Index for the individuals in the dataset. This stage will substantially influence the accuracy of the predictive model you construct in the next stage. "
+Predictive Modeling,"Modeling is the stage where you use mathematical and/or statistical approaches to answer your analytical question. Predictive Modeling refers to the process of using probabilistic statistical methods to try to predict the outcome of an event. For example, based on employee data, an organization can develop a predictive model to identify employee attrition rate in order to develop better retention strategies.
+
+Choosing the ""right"" model is often a challenging decision as there is never a single right answer. Selecting a model involves balancing the accuracy and computational cost of the analysis process. For example, some recent approaches in predictive modeling such as deep learning have been shown to offer vastly improved accuracy of results, but with a very high computational cost.
+"
+"definition of data visualization, what is data visualization?","After deriving the required results from a statistical model, visualizations are normally used to summarize and present the findings of the analysis process in a form which is easily understandable by non-technical decision makers. 
+
+Data visualization could be thought of as an evolution of visual communication techniques as it deals with the visual representation of data. There are a wide range of different data visualization techniques, from bar graphs, line graphs and scatter plots to alluvial diagrams and spatio-temporal visualizations, each of which will work better for presenting certain types of information."
+"What Tools do Professional Data Scientists Use?
+","Python - There are many languages that can be used for data science, but these days most data scientists are using Python to write their code.
+Jupyter Notebook - Most of those data scientists use Jupyter Notebook for writing their Python. Jupyter Notebook is a tool that allows you to mix comments in-between your code snippets so you can document and share your thinking process and make it easier for others to review, replicate and expand on your work. It's also what we're using for almost all of our lessons in this course!
+Anaconda - Anaconda is one of the most popular ways for data scientists to install Python and Jupyter Notebook on their computers. It also provides package management and virtual environments so you can get all the latest data science tools running like NumPy, SciPy, and Tensorflow, and so you can use different versions of Python and your packages for different projects without them conflicting with each other.
+Git - Git is a version control system. It’s a way of keeping track of all the changes made across your project. Think of it like “track changes” in Word - but with the ability to track changes across multiple documents. At Flatiron School, we use Git to keep track of all of the lessons we create and all the changes we make to them.
+GitHub - GitHub is a website where data scientists (and programmers) can save their work in case their computer breaks, and share it with their team or the world! At Flatiron School, we store all of our lessons on GitHub."
+Mian tools in data science,"Python - There are many languages that can be used for data science, but these days most data scientists are using Python to write their code.
+Jupyter Notebook - Most of those data scientists use Jupyter Notebook for writing their Python. Jupyter Notebook is a tool that allows you to mix comments in-between your code snippets so you can document and share your thinking process and make it easier for others to review, replicate and expand on your work. It's also what we're using for almost all of our lessons in this course!
+Anaconda - Anaconda is one of the most popular ways for data scientists to install Python and Jupyter Notebook on their computers. It also provides package management and virtual environments so you can get all the latest data science tools running like NumPy, SciPy, and Tensorflow, and so you can use different versions of Python and your packages for different projects without them conflicting with each other.
+Git - Git is a version control system. It’s a way of keeping track of all the changes made across your project. Think of it like “track changes” in Word - but with the ability to track changes across multiple documents. At Flatiron School, we use Git to keep track of all of the lessons we create and all the changes we make to them.
+GitHub - GitHub is a website where data scientists (and programmers) can save their work in case their computer breaks, and share it with their team or the world! At Flatiron School, we store all of our lessons on GitHub."
+How to install git,"Git insallation on Windows: https://www.youtube.com/watch?v=2j7fD92g-gE
+Git insallation on Mac: https://www.youtube.com/watch?v=sJ4zr0a4GAs"
+What is Conda and Anaconda?,"Anaconda is a free and open-source[6] distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS. It is developed and maintained by Anaconda, Inc., which was founded by Peter Wang and Travis Oliphant in 2012.[7] As an Anaconda, Inc. product, it is also known as Anaconda Distribution or Anaconda Individual Edition, while other products from the company are Anaconda Team Edition and Anaconda Enterprise Edition, which are both not free."
