@@ -130,6 +130,10 @@ dmypy.json
 
 # Extras
 creds.py
+config.ini
 
 # vscode
 /.vscode
+
+# chatbox venv
+/chatbox
