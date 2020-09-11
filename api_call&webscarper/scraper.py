@@ -17,11 +17,11 @@ class QAScraper:
         
     def set_reddit(self, config):
         '''
-        Method to use reddit to get questions and answers for topics
+        Method to use reddit to get questions and answers for topics with praw
         
         Parameters
         ----------
-        config: Dictionary of containing client_id, client_secret, username, password, and user_agent
+        config: Dictionary containing client_id, client_secret, username, password, and user_agent
         '''
         self.reddit = praw.Reddit(
             client_id = config['client_id'],
@@ -32,37 +32,33 @@ class QAScraper:
         )
     
     # Helper function to extract posts in a single subreddit
-    def _extract_reddit(self, sub):
+    def _extract_reddit(self, sub, max_posts):
         subreddit = self.reddit.subreddit(sub)
-        hot = subreddit.hot(limit=100)
+        hot = subreddit.hot(limit=max_posts)
         
-        title_reply = []
-        for submission in hot:
-            if not submission.stickied:
-                comments = submission.comments
-                for comment in comments:
-                    try:
-                        title_reply.append({
-                            'body': comment.body,
-                            'reply': [ reply.body for reply in comment.replies ],
-                        })                 
-                    except:
-                        pass
+        submissions = [
+            submission for submission in hot
+            if not submission.stickied and '?' in submission.title
+        ]
 
-        questions = []
-        answers = []
-        for i in range(len(title_reply)):
-            questions.append(list(title_reply)[i]['body'])
-            answers.append(list(title_reply)[i]['reply']) 
+        questions = [
+            ' '.join([submission.title, submission.selftext]) for submission in submissions
+        ]
 
+        answers = [
+            submission.comments[0].body for submission in submissions
+        ]
+
+        assert len(questions) == len(answers), 'Questions and answers do not match'
         return questions, answers
     
-    def get_reddit(self, subs):
+    def get_reddit(self, max_posts, subs):
         '''
         Method to add questions and answers from list of subreddits
         
         Parameters
         ----------
+        max_posts: Maximum number of posts to retrieve per subreddit
         subs: List of subreddits (strings) for getting posts
         '''
         assert type(subs) == list, 'Subreddits must be list of strings'
@@ -71,10 +67,11 @@ class QAScraper:
         failure = []
         for sub in subs:
             try:
-                q, a = self._extract_reddit(sub)
+                qs, ans = self._extract_reddit(sub, max_posts)
                 success.append(f'{sub}')
-                self.questions.append(q)
-                self.answers.append(a)
+                for i in range(len(qs)):
+                    self.questions.append(qs[i])
+                    self.answers.append(ans[i])
             except:
                 failure.append(f'{sub}')
                 
@@ -176,16 +173,18 @@ class QAScraper:
         print('All topics finished!')
         return
     
-    def write_csv(self, name):
+    def get_df(self, csv=False, name='.csv'):
         '''
         Method to write csv file of questions and answers
         
         Parameters
         ----------
         name: Name of file (string)
+        dataframe: Return a DataFrame (bool)
         '''
         df = pd.DataFrame([self.questions, self.answers], index=['questions', 'answers']).T
-        df.to_csv(f'{name}')
+        if csv == True:
+            df.to_csv(f'{name}')
+            print(f'{name} made!')
 
-        print(f'{name} made!')
-        return
+        return df
