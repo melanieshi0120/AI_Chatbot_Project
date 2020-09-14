@@ -18,4 +18,4 @@ In this part we collected datasets which are definitions, concepts and fixed usa
 ![images/hard_coded.gif](images/hard_coded.gif)
 # RNN Chatbot
 The conversation for chatbot in this part will be more general. 
-![images/deep_learning.gif](deep_learning.gif)
+![images/deep_learning.gif](images/deep_learning.gif)
