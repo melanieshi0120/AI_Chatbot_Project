@@ -1,5 +1,5 @@
 # AI_Chatbot_DataScience_Project
-![images/chatbot_logo.png](images/chatbot_logo.png)
+![images/chacha.png](images/chacha.png)
 ## Team Members
 ![images/team_members.png](images/team_members.png)
 
