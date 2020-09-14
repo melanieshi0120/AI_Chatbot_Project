@@ -1,6 +1,6 @@
 # AI_Chatbot_DataScience_Project
 ## Team Members（Alphabetically）
-![images/team_members](images/team_members)
+![images/team_members.png](images/team_members.png)
 
 ## Goal
 The goal of this chatbot project is to answer data science students common questions. This project contains two parts -  hard-coded part and deep learning part.
