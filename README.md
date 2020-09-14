@@ -6,7 +6,7 @@
 ## Goal
 The goal of this chatbot project is to answer data science students common questions. This project contains two parts -  hard-coded part and deep learning part.
 The datasets were collected from reddit API and Stack Overflow (Web Scraping). Besides, [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) was applied in both parts. Currently, we are updating the datasets from different sources. Due to the large amount of data, we are ready to train our model on AWS & GCP.
-
+![images/web_version.png](images/web_version.png)
 We will use different interfaces for our chatbot - web version and [tkinter](https://docs.python.org/3/library/tkinter.html) version.
 ![images/video1.gif](images/video1.gif)
 # Hard-coded Chatbot
