@@ -32,12 +32,18 @@ class QAScraper:
         )
     
     # Helper function to extract posts in a single subreddit
-    def _extract_reddit(self, sub, max_posts):
+    def _extract_reddit(self, sub, max_posts, hot_or_top='top'):
         subreddit = self.reddit.subreddit(sub)
-        hot = subreddit.hot(limit=max_posts)
+
+        if hot_or_top == 'top':
+            posts = subreddit.top(limit=max_posts)
+        elif hot_or_top == 'hot':
+            posts = subreddit.hot(limit=max_posts)
+        else:
+            return 'Enter whether hot posts or top posts are searched'
         
         submissions = [
-            submission for submission in hot
+            submission for submission in posts
             if not submission.stickied and '?' in submission.title
         ]
 
@@ -52,7 +58,7 @@ class QAScraper:
         assert len(questions) == len(answers), 'Questions and answers do not match'
         return questions, answers
     
-    def get_reddit(self, max_posts, subs):
+    def get_reddit(self, max_posts, subs, hot_or_top='top'):
         '''
         Method to add questions and answers from list of subreddits
         
@@ -60,6 +66,7 @@ class QAScraper:
         ----------
         max_posts: Maximum number of posts to retrieve per subreddit
         subs: List of subreddits (strings) for getting posts
+        hot_or_top: Choose 'hot' or 'top' to search hot posts or top posts
         '''
         assert type(subs) == list, 'Subreddits must be list of strings'
         
@@ -67,16 +74,17 @@ class QAScraper:
         failure = []
         for sub in subs:
             try:
-                qs, ans = self._extract_reddit(sub, max_posts)
+                qs, ans = self._extract_reddit(sub, max_posts, hot_or_top)
                 success.append(f'{sub}')
                 for i in range(len(qs)):
-                    self.questions.append(qs[i])
-                    self.answers.append(ans[i])
+                    if qs[i] not in self.questions:
+                        self.questions.append(qs[i])
+                        self.answers.append(ans[i])
             except:
                 failure.append(f'{sub}')
                 
-        print('Subreddits searched:', ', '.join(success))
-        print('Subreddits not searched:', ', '.join(failure))
+        print(f'Subreddits ({hot_or_top}) searched:', ', '.join(success))
+        print(f'Subreddits ({hot_or_top}) not searched:', ', '.join(failure))
         return
     
     # Helper function to get all hrefs on a page
@@ -179,8 +187,8 @@ class QAScraper:
         
         Parameters
         ----------
+        csv: Return a csv file (bool)
         name: Name of file (string)
-        dataframe: Return a DataFrame (bool)
         '''
         df = pd.DataFrame([self.questions, self.answers], index=['questions', 'answers']).T
         if csv == True:
