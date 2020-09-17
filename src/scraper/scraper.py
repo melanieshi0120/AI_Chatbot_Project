@@ -44,7 +44,7 @@ class QAScraper:
         
         submissions = [
             submission for submission in posts
-            if not submission.stickied and '?' in submission.title
+            if not submission.stickied # and '?' in submission.title
         ]
 
         questions = [
