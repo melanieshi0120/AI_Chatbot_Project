@@ -2,7 +2,8 @@
 ![images/chacha.png](images/chacha.png)
 ## Team Members
 ![images/team_members.png](images/team_members.png)
-
+## Introduction
+Nowadays, chatbots are very popular in different territories such as sales, e-commerce, health companies, restaurants, retail industry, etc. Because a chatbot significantly shortens the waiting time and it can help and answer different consumers' common questions simultaneously and instantly. Also, it can help companies to reduce the cost to serve people.
 ## Goal
 The goal of this chatbot project is to answer data science students common questions. This project contains two parts -  hard-coded part and deep learning part.
 The datasets were collected from reddit API and Stack Overflow (Web Scraping). Besides, [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) was applied in both parts. Currently, we are updating the datasets from different sources. Due to the large amount of data, we are ready to train our model on AWS & GCP. 
